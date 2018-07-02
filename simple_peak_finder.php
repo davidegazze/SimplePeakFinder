@@ -1,7 +1,7 @@
 <?php
 
 function simple_peak_finder(&$x0, $sel=0, $thresh=null, $extrema=1) {
-    // Reture all the point that are above a sel
+    // Return all the point that are above a sel
     // A[i] where A[i] >= A[i-1] and A[i] >= A[i + 1].
     $numX0 = count($x0);
     $response = array();
